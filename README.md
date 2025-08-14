@@ -23,6 +23,7 @@ Easy to run docker setup for a private LLM with private Web Search and UI
    ```
 
 2. Set GPU memory usage to at least 1GB.
+![GPU BIOS setting](./docs/bios-buffer.jpeg)
 
 3. You should then see the GPU being detected:
    ```
