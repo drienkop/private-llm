@@ -31,7 +31,6 @@ brand:
   #     About: "https://searxng.org"
 
 search:
-  timeout: 10
   # Filter results. 0: None, 1: Moderate, 2: Strict
   safe_search: 0
   # Existing autocomplete backends: "360search", "baidu", "brave", "dbpedia", "duckduckgo", "google", "yandex",
@@ -819,7 +818,6 @@ engines:
   - name: duckduckgo
     engine: duckduckgo
     shortcut: ddg
-    disabled: true
 
   - name: duckduckgo images
     engine: duckduckgo_extra
